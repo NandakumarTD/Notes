@@ -1,0 +1,81 @@
+Git - Maintaining the history of our projects
+Github - Allows to upload git repository
+repository(folder)
+Download git command line tool
+
+
+ls - list the items
+mkdir - make directory like folder
+cd project - change the directory to  	
+
+where our history are saved in the .git file
+
+git init - to initialize git in our project
+
+ls -a ---> to show hidden folders
+
+ git status - to check what are the changes are added
+
+git add - to add the files to our git
+git add . - to add all the files
+git commit -m - to commit the file to our git with a message.
+git restore --staged filename - to remove it before commiting
+git log - to see the entire history
+git reset hashid - to remove all the things above the hash id - they were in unstaged 
+git stash filename - like it is in backstage whenever we want
+git stash pop - things in the stack will come again
+git stash clear - to clear the stash
+
+
+
+
+How to add our github to our git
+create a repository in our github it will generate an url copy the url and paste it in the below command
+
+git remote add origin link
+git - git
+remote - working with url
+add - adding new url
+origin - name of the url
+
+
+git push origin master(branchname) - to push our project to our github
+
+
+git branch branchname - to create a new branch
+
+git checkout branchname to change the branch
+
+head is like a pointer
+
+git merge branchname - to merge a branch to our masterbranch
+
+
+contribuiting to other projects:
+create a copy of the project - fork
+clone the project 
+git clone url
+
+git remote add upstream url - from where the projects is copied or cloned
+
+
+
+
+pull request -- To give our project to another project
+
+Make new branches so that it can be easily managed
+
+git push origin filename -f (Force push)
+
+git fetch --all --prune  ------> Fetching all the details
+
+git reset --hard upstream/main --> to see what in project and my folder
+
+git pull upstream main --> to pull the url in main
+
+merge all the commits 
+git rebase -i url
+
+
+what if both peoples made changes to a single line and commit it -- merge conflict we can change it manually
+
