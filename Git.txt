@@ -79,3 +79,6 @@ git rebase -i url
 
 what if both peoples made changes to a single line and commit it -- merge conflict we can change it manually
 
+
+First git done in 16.7.2023
+
